@@ -272,7 +272,7 @@ function Hero() {
         pointerEvents: "none",
       }} />
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", width: "100%", position: "relative", zIndex: 1 }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", width: "100%", position: "relative", zIndex: 1, textAlign: "center", alignItems: "center"}}>
         {/* Eyebrow */}
         <div style={{ marginBottom: 24 }}>
           <LineRule label="UT Austin · Est. 2025" light />
@@ -294,7 +294,7 @@ function Hero() {
           fontFamily: "'Barlow Condensed', sans-serif",
           fontSize: "clamp(16px, 2.5vw, 24px)", fontWeight: 600,
           color: "rgba(240,237,230,0.85)", textTransform: "uppercase",
-          letterSpacing: "0.12em", marginBottom: 12, maxWidth: 640,
+          letterSpacing: "0.12em", marginBottom: 12,
         }}>
           Free, Accessible, Practical Premed Mentorship at UT Austin
         </p>
@@ -310,7 +310,7 @@ function Hero() {
         </p>
 
         {/* CTAs */}
-        <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center"}}>
           <a href="#contact" style={{
             fontFamily: "'Barlow Condensed', sans-serif",
             fontWeight: 800, fontSize: 14, letterSpacing: "0.2em",
@@ -499,7 +499,7 @@ function Why() {
 
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
           gap: 0,
           border: `1px solid ${COLORS.green}`,
         }}>
