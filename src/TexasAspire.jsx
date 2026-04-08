@@ -232,15 +232,16 @@ function Nav() {
       </div>
 
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
-        @media (max-width: 768px) { .nav-links { display: none !important; } }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
-        body { background: ${COLORS.cream}; margin: 0; padding: 0; overflow-x: hidden; }
-        html, body, #root { width: 100%; margin: 0; padding: 0; }
-        .fade-up { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
-        .fade-up.visible { opacity: 1; transform: translateY(0); }
-      `}</style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600&display=swap');
+  @media (max-width: 768px) { .nav-links { display: none !important; } }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: ${COLORS.cream}; margin: 0; padding: 0; overflow-x: hidden; }
+  html, body, #root { width: 100%; margin: 0; padding: 0; }
+  .fade-up { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+  @media (max-width: 600px) { #why div[style] { grid-template-columns: 1fr !important; } }
+`}</style>
     </nav>
   );
 }
@@ -499,7 +500,7 @@ function Why() {
 
         <div style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+          gridTemplateColumns: "repeat(3, 1fr)",
           gap: 0,
           border: `1px solid ${COLORS.green}`,
         }}>
