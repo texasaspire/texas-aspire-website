@@ -301,10 +301,10 @@ function Hero() {
         </p>
 
         <p style={{
-          fontFamily: "'Barlow', sans-serif",
-          fontSize: "clamp(14px, 1.5vw, 17px)",
-          color: "rgba(240,237,230,0.65)", maxWidth: 540, lineHeight: 1.6,
-          marginBottom: 48,
+  fontFamily: "'Barlow', sans-serif",
+  fontSize: "clamp(14px, 1.5vw, 17px)",
+  color: "rgba(240,237,230,0.65)", lineHeight: 1.6,
+  margin: "0 auto 48px",
         }}>
           Guidance from medical students, residents, and professionals —
           no applications, no dues, no interviews required.
