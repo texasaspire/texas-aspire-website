@@ -28,6 +28,7 @@ const TEAM = [
     position: "Director of Marketing",
     year: "Sophomore, Neuroscience",
     bio: "Dedicated to building a community where students feel supported on their medical school journey.",
+    photo: "https://imgur.com/a2c2e9d8-5a82-4f7c-975b-d06c98fc4a5a"
   
   },
   {
