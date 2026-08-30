@@ -50,8 +50,8 @@ export type Event = {
 export const EVENTS: readonly Event[] = [
   {
     title: "Workshop №1",
-    date: "April 9, 2026 · 6:30 PM",
-    location: "Jester West Auditorium",
+    date: "September 3, 2026 · 5:30 PM",
+    location: "Jester West Upstairs Classroom",
     speaker: "Vincent Phan, M.D. · Resident Physician",
     hook: "ASPIRE's first ever workshop. A practicing resident physician shares his firsthand experience navigating the pre-med journey at UT Austin. Come ready to ask anything.",
     agenda: [

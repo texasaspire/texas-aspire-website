@@ -274,7 +274,7 @@ function Team() {
         <div className="ta-section__head ta-team__head">
           <Eyebrow num="05">Team</Eyebrow>
           <h2 className="ta-display ta-h2">
-            Meet the <em>2025–2026</em> board.
+            Meet the board.
           </h2>
         </div>
 
@@ -351,8 +351,8 @@ function Events() {
                   {isFeature ? (
                     <>
                       <span className="ta-event__tag">{ev.tag}</span>
-                      <span className="ta-event__plate">Apr 9</span>
-                      <span className="ta-event__plate-sub">2026 · 6:30 PM</span>
+                      <span className="ta-event__plate">Sep 3</span>
+                      <span className="ta-event__plate-sub">2026 · 5:30 PM</span>
                       <span className="ta-event__plate-sub">{ev.location}</span>
                     </>
                   ) : (

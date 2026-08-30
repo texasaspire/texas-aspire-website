@@ -338,14 +338,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 400; }
   }
   .ta-hero__inner { max-width: 100%; margin-left: 0; }
   .ta-hero__sphere {
-    position: relative;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    width: 100%;
-    height: 36vh !important;
-    margin-top: 32px;
-    opacity: 0.8;
+    display: none;
   }
 }
 
