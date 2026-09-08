@@ -49,36 +49,41 @@ export type Event = {
 
 export const EVENTS: readonly Event[] = [
   {
-    title: "Workshop №1",
-    date: "September 3, 2026 · 5:30 PM",
+    title: "Workshop №1 — Research",
+    date: "September 10, 2026 · 5:30 PM",
     location: "Jester West Upstairs Classroom",
-    speaker: "Vincent Phan, M.D. · Resident Physician",
-    hook: "ASPIRE's first ever workshop. A practicing resident physician shares his firsthand experience navigating the pre-med journey at UT Austin. Come ready to ask anything.",
+    hook: "The first installment of ASPIRE's Pre-Med Application Series: four workshops, each built around one piece of the application. We're starting with research — how to find it, how to get it, and how to make the ask.",
     agenda: [
-      "Coursework and clinical hours",
-      "The medical school application itself",
-      "What the process actually looks like",
-      "What he wishes he'd known earlier",
-      "How to make the most of your time as a pre-med student",
+      "Finding research opportunities that actually fit your interests and schedule",
+      "How to write a cold email professors actually respond to",
+      "Live send: every student leaves having emailed a professor they want to work with",
     ],
     description:
-      "Join us for ASPIRE's first ever workshop featuring Vincent Phan, M.D., a practicing resident physician who will share his firsthand experience navigating the pre-med journey at UT Austin: coursework, clinical hours, and the medical school application itself. Come ready to ask anything.",
+      "The first installment of ASPIRE's Pre-Med Application Series, a four-part deep dive into every major piece of the application. Workshop №1 is all about research: how to find opportunities that fit you, how to cold email professors the right way, and by the end of the session, every student will have emailed a professor they're interested in working with.",
     tag: "Upcoming",
   },
   {
-    title: "Clinical Experience Q&A",
-    date: "TBD",
-    location: "Jester Auditorium",
+    title: "Workshop №2 — Clinical Experience",
+    date: "September 24, 2026 · 5:30 PM",
+    location: "Jester West Upstairs Classroom",
     description:
-      "A dedicated session on finding and making the most of clinical volunteering and shadowing opportunities.",
+      "Part two of the Pre-Med Application Series. How to find shadowing, scribing, and clinical roles worth your time, and how to turn that experience into something meaningful on your application.",
     tag: "Upcoming",
   },
   {
-    title: "Application Deep Dive",
-    date: "TBD",
-    location: "UT Austin Campus",
+    title: "Workshop №3 — The MCAT",
+    date: "October 8, 2026 · 5:30 PM",
+    location: "Jester West Upstairs Classroom",
     description:
-      "Everything you need to know about AMCAS, personal statements, secondaries, and interview prep.",
+      "Part three of the Pre-Med Application Series. Study timelines, resources, and strategy from students who've taken the exam, plus how to know when you're actually ready to sit for it.",
+    tag: "Upcoming",
+  },
+  {
+    title: "Workshop №4 — Volunteering",
+    date: "October 22, 2026 · 5:30 PM",
+    location: "Jester West Upstairs Classroom",
+    description:
+      "Part four of the Pre-Med Application Series. Finding volunteer work that's sustainable and genuine, and how to talk about it authentically when it's time to apply.",
     tag: "Upcoming",
   },
 ];
