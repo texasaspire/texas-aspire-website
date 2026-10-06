@@ -2,28 +2,28 @@ export const TEAM = [
   {
     name: "Sanjay Sathish",
     position: "President",
-    year: "Sophomore, Neuroscience",
+    year: "Junior, Neuroscience",
     bio: "Passionate about making premed guidance accessible to every student at UT Austin.",
     photo: "https://i.imgur.com/sZW9Szb.jpeg",
   },
   {
     name: "Impa Bagur",
     position: "Director of Marketing",
-    year: "Sophomore, Neuroscience",
+    year: "Junior, Neuroscience",
     bio: "Dedicated to building a community where students feel supported on their medical school journey.",
     photo: "https://i.imgur.com/iiC1x24.jpeg",
   },
   {
     name: "Pearl Patel",
     position: "Director of Logistics",
-    year: "Sophomore, Neuroscience",
+    year: "Junior, Neuroscience",
     bio: "Organizing workshops and speaker series that bring real clinical perspective to premed students.",
     photo: "https://i.imgur.com/nT7AnJ0.jpeg",
   },
   {
     name: "Vishruth Batchu",
     position: "Director of Outreach",
-    year: "Sophomore, Neuroscience",
+    year: "Junior, Neuroscience",
     bio: "Connecting students with opportunities and helping grow the ASPIRE community across campus.",
     photo: "https://i.imgur.com/2ghftER.jpeg",
   },
@@ -49,41 +49,33 @@ export type Event = {
 
 export const EVENTS: readonly Event[] = [
   {
-    title: "Workshop №1 — Research",
-    date: "September 10, 2026 · 5:30 PM",
-    location: "Jester West Upstairs Classroom",
-    hook: "The first installment of ASPIRE's Pre-Med Application Series: four workshops, each built around one piece of the application. We're starting with research — how to find it, how to get it, and how to make the ask.",
-    agenda: [
-      "Finding research opportunities that actually fit your interests and schedule",
-      "How to write a cold email professors actually respond to",
-      "Live send: every student leaves having emailed a professor they want to work with",
-    ],
-    description:
-      "The first installment of ASPIRE's Pre-Med Application Series, a four-part deep dive into every major piece of the application. Workshop №1 is all about research: how to find opportunities that fit you, how to cold email professors the right way, and by the end of the session, every student will have emailed a professor they're interested in working with.",
-    tag: "Upcoming",
-  },
-  {
-    title: "Workshop №2 — Clinical Experience",
-    date: "September 24, 2026 · 5:30 PM",
-    location: "Jester West Upstairs Classroom",
-    description:
-      "Part two of the Pre-Med Application Series. How to find shadowing, scribing, and clinical roles worth your time, and how to turn that experience into something meaningful on your application.",
-    tag: "Upcoming",
-  },
-  {
-    title: "Workshop №3 — The MCAT",
+    title: "Workshop №1 — Clinical Experience",
     date: "October 8, 2026 · 5:30 PM",
     location: "Jester West Upstairs Classroom",
+    hook: "The next installment of ASPIRE's Pre-Med Application Series. A current medical assistant walks the room through exactly how he found his job — where he looked, what he sent, how he got hired — and then takes every student through the same process personally.",
+    agenda: [
+      "How one of our own found and landed a medical assistant job as an undergrad",
+      "Where clinical openings actually get posted, and what hiring managers are looking for",
+      "Personal walkthrough: every student leaves with a plan for landing their own clinical role",
+    ],
     description:
-      "Part three of the Pre-Med Application Series. Study timelines, resources, and strategy from students who've taken the exam, plus how to know when you're actually ready to sit for it.",
+      "The next installment of ASPIRE's Pre-Med Application Series, built around clinical experience. A current medical assistant will go through exactly how he found and landed his job — where he looked, what he sent, and how he got hired — and then personally walk everyone in the room through doing the same for themselves.",
     tag: "Upcoming",
   },
   {
-    title: "Workshop №4 — Volunteering",
+    title: "Workshop №2 — The MCAT",
     date: "October 22, 2026 · 5:30 PM",
     location: "Jester West Upstairs Classroom",
     description:
-      "Part four of the Pre-Med Application Series. Finding volunteer work that's sustainable and genuine, and how to talk about it authentically when it's time to apply.",
+      "Part two of the Pre-Med Application Series. Study timelines, resources, and strategy from students who've taken the exam, plus how to know when you're actually ready to sit for it.",
+    tag: "Upcoming",
+  },
+  {
+    title: "Workshop №3 — Volunteering",
+    date: "November 5, 2026 · 5:30 PM",
+    location: "Jester West Upstairs Classroom",
+    description:
+      "Part three of the Pre-Med Application Series. Finding volunteer work that's sustainable and genuine, and how to talk about it authentically when it's time to apply.",
     tag: "Upcoming",
   },
 ];

@@ -351,7 +351,7 @@ function Events() {
                   {isFeature ? (
                     <>
                       <span className="ta-event__tag">{ev.tag}</span>
-                      <span className="ta-event__plate">Sep 10</span>
+                      <span className="ta-event__plate">Oct 8</span>
                       <span className="ta-event__plate-sub">2026 · 5:30 PM</span>
                       <span className="ta-event__plate-sub">{ev.location}</span>
                     </>
